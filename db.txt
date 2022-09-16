@@ -1,0 +1,13 @@
+-- GAMES
+ INSERT INTO game (id, banner_url, title) VALUES('795fc769-3d8a-416a-b39b-6b4e4b1937eb'::uuid, 'https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg', 'League of Legends');
+INSERT INTO game (id, banner_url, title) VALUES('33b0bdbb-207b-4aee-999d-f72577ff4efe'::uuid, 'https://static-cdn.jtvnw.net/ttv-boxart/32399_IGDB-188x250.jpg', 'Counter Strike: Global Offensive');
+INSERT INTO game (id, banner_url, title) VALUES('67cc23c9-225c-4e1c-bd33-ed85ee74bbc9'::uuid, 'https://static-cdn.jtvnw.net/ttv-boxart/516575-188x250.jpg', 'Valorant');
+INSERT INTO game (id, banner_url, title) VALUES('68393fb1-4ca0-4ab5-8b92-757b2899e7c6'::uuid, 'https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg', 'Grand Theft Auto V');
+INSERT INTO game (id, banner_url, title) VALUES('af647ba8-5927-446f-b241-898eb25453eb'::uuid, 'https://static-cdn.jtvnw.net/ttv-boxart/33214-188x250.jpg', 'Fortnite');
+INSERT INTO game (id, banner_url, title) VALUES('61a210b3-8d4a-4171-b6b0-782f6e8d15ef'::uuid, 'https://static-cdn.jtvnw.net/ttv-boxart/230322618_IGDB-188x250.jpg', 'Uncharted 4: A Thief''s End');
+
+-- ANUNCIOS
+INSERT INTO anuncio (id, created_at, discord, hour_end, hour_start, "name", use_voice_channel, week_days, years_playing, id_game) VALUES('b53ad980-1837-455d-a26b-135f85669eda'::uuid, '2022-09-14 10:10:25.000', 'Robson Leal#1955', 1080, 1230, 'Lealziton', true, '0,3,5', 2, '68393fb1-4ca0-4ab5-8b92-757b2899e7c6'::uuid);
+
+
+
